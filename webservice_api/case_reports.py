@@ -3,8 +3,10 @@
 # @Author :xuqiao  
 # @Email :1462942304@qq.com
 # @File :case_reports.py
+import sys
 import unittest
 from webservice_api.conmon import cantins
+sys.path.append("./") #project的根目录下
 import HTMLTestRunnerNew
 discover = unittest.defaultTestLoader.discover(cantins.case_path,"test_*.py")
 with open(cantins.reports_path + "/test.html","wb+") as file:
