@@ -1,0 +1,1029 @@
+2019-04-28 14:25:56,130-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例前的前置工作-[test_recharge_testcase.py-20]
+2019-04-28 14:26:01,506-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：投资用户正常登录-[test_recharge_testcase.py-25]
+2019-04-28 14:26:01,512-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:26:02,472-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","pwd":"123456"}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:08,173-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入整数金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:26:09,306-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-用户充值之前的余额是：68000.00-[test_recharge_testcase.py-31]
+2019-04-28 14:26:09,307-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:10,735-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-充值之后用户的余额是：-[test_recharge_testcase.py-38]
+2019-04-28 14:26:12,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-70000.00-[test_recharge_testcase.py-41]
+2019-04-28 14:26:12,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":2000}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:17,670-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：不输入金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:26:17,671-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:18,267-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":None}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:23,138-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号为空-[test_recharge_testcase.py-25]
+2019-04-28 14:26:23,139-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:23,557-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"","amount":500}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:28,720-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号格式不正确-[test_recharge_testcase.py-25]
+2019-04-28 14:26:28,722-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:29,153-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"jjdjjijijij","amount":500000}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:34,480-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额输入汉字-[test_recharge_testcase.py-25]
+2019-04-28 14:26:34,481-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:35,021-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":"jiji"}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:42,684-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例前的前置工作-[test_recharge_testcase.py-20]
+2019-04-28 14:26:47,627-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：投资用户正常登录-[test_recharge_testcase.py-25]
+2019-04-28 14:26:47,630-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:26:48,243-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","pwd":"123456"}-[test_recharge_testcase.py-47]
+2019-04-28 14:26:53,688-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入整数金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:26:54,691-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-用户充值之前的余额是：70000.00-[test_recharge_testcase.py-31]
+2019-04-28 14:26:54,693-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:26:55,945-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-充值之后用户的余额是：-[test_recharge_testcase.py-38]
+2019-04-28 14:27:00,402-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-72000.00-[test_recharge_testcase.py-41]
+2019-04-28 14:27:00,403-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":2000}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:07,910-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：不输入金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:27:07,912-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:08,700-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":None}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:13,952-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号为空-[test_recharge_testcase.py-25]
+2019-04-28 14:27:13,953-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:14,504-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"","amount":500}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:19,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号格式不正确-[test_recharge_testcase.py-25]
+2019-04-28 14:27:19,922-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:20,234-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"jjdjjijijij","amount":500000}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:25,204-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额输入汉字-[test_recharge_testcase.py-25]
+2019-04-28 14:27:25,207-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:25,573-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":"jiji"}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:31,429-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入金额是三位小数-[test_recharge_testcase.py-25]
+2019-04-28 14:27:31,431-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:32,248-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-ERROR- :: 20117 != 20116-[test_recharge_testcase.py-45]
+2019-04-28 14:27:38,078-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额输入负数-[test_recharge_testcase.py-25]
+2019-04-28 14:27:38,079-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:38,629-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":-50}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:44,630-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额大于50万-[test_recharge_testcase.py-25]
+2019-04-28 14:27:44,631-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:46,140-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"18811085209","amount":500000.5}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:52,409-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入不存在的用户名-[test_recharge_testcase.py-25]
+2019-04-28 14:27:52,410-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:27:52,990-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：{"mobilephone":"13567656764","amount":500}-[test_recharge_testcase.py-47]
+2019-04-28 14:27:52,991-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-用例执行结束后的后置工作-[test_recharge_testcase.py-53]
+2019-04-28 14:29:22,875-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例前的前置工作-[test_login_testcase.py-19]
+2019-04-28 14:29:22,876-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：正常登录-[test_login_testcase.py-22]
+2019-04-28 14:29:22,880-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:29:23,956-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：正常登录-[test_login_testcase.py-34]
+2019-04-28 14:29:23,957-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：用户名为空-[test_login_testcase.py-22]
+2019-04-28 14:29:23,959-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:29:24,594-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：用户名为空-[test_login_testcase.py-34]
+2019-04-28 14:29:24,595-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：密码为空-[test_login_testcase.py-22]
+2019-04-28 14:29:24,597-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:29:24,999-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：密码为空-[test_login_testcase.py-34]
+2019-04-28 14:29:24,999-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：密码错误-[test_login_testcase.py-22]
+2019-04-28 14:29:25,002-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:29:25,358-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：密码错误-[test_login_testcase.py-34]
+2019-04-28 14:29:25,359-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：用户名错误-[test_login_testcase.py-22]
+2019-04-28 14:29:25,361-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:29:25,812-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：用户名错误-[test_login_testcase.py-34]
+2019-04-28 14:29:25,812-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-用例执行结束后的后置工作-[test_login_testcase.py-38]
+2019-04-28 14:34:23,285-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例前的前置工作-[test_invest_testcase.py-21]
+2019-04-28 14:34:28,009-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：管理员正常登录-[test_invest_testcase.py-26]
+2019-04-28 14:34:28,013-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:34:28,702-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：管理员正常登录-[test_invest_testcase.py-58]
+2019-04-28 14:34:33,488-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：正常添加项目-[test_invest_testcase.py-26]
+2019-04-28 14:34:33,494-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:34:34,106-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：正常添加项目-[test_invest_testcase.py-58]
+2019-04-28 14:34:38,767-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：审核项目-[test_invest_testcase.py-26]
+2019-04-28 14:34:38,771-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/audit-[http_request.py-15]
+2019-04-28 14:34:39,080-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：审核项目-[test_invest_testcase.py-58]
+2019-04-28 14:34:43,692-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：投资用户正常登录-[test_invest_testcase.py-26]
+2019-04-28 14:34:43,695-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:34:44,032-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：投资用户正常登录-[test_invest_testcase.py-58]
+2019-04-28 14:34:49,214-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：正常投标-[test_invest_testcase.py-26]
+2019-04-28 14:34:49,796-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-投标之前的用户余额是：72000.00-[test_invest_testcase.py-35]
+2019-04-28 14:34:49,798-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:34:50,705-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-用户投资的金额是：2000.00-[test_invest_testcase.py-52]
+2019-04-28 14:34:51,070-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-用户投标成功后的余额：70000.00-[test_invest_testcase.py-54]
+2019-04-28 14:34:52,097-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：正常投标-[test_invest_testcase.py-58]
+2019-04-28 14:34:57,257-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：用户ID为空进行投标-[test_invest_testcase.py-26]
+2019-04-28 14:34:57,258-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:34:58,549-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：用户ID为空进行投标-[test_invest_testcase.py-58]
+2019-04-28 14:35:07,271-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：输入一个与登录用户不一样的memberId-[test_invest_testcase.py-26]
+2019-04-28 14:35:07,273-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:35:07,862-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：输入一个与登录用户不一样的memberId-[test_invest_testcase.py-58]
+2019-04-28 14:35:13,420-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：输入一个不存在的标的，进行投标-[test_invest_testcase.py-26]
+2019-04-28 14:35:13,424-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:35:13,848-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：输入一个不存在的标的，进行投标-[test_invest_testcase.py-58]
+2019-04-28 14:35:19,405-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：投资金额大于项目的剩余可投金额-[test_invest_testcase.py-26]
+2019-04-28 14:35:19,410-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:35:19,883-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-ERROR-测试报错了： :: 11012 != 11010-[test_invest_testcase.py-42]
+2019-04-28 14:35:25,678-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：该标已经满标,无法进行投资-[test_invest_testcase.py-26]
+2019-04-28 14:35:25,682-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:35:26,317-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：该标已经满标,无法进行投资-[test_invest_testcase.py-58]
+2019-04-28 14:38:09,061-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例前的前置工作-[test_add_bidloan_testcase.py-20]
+2019-04-28 14:38:17,354-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：管理员正常登录-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:17,357-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:38:18,405-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：管理员正常登录-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:22,984-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：正常添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:23,111-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-添加项目前查询到的id:5813-[test_add_bidloan_testcase.py-31]
+2019-04-28 14:38:23,113-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:23,425-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：正常添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:27,934-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:27,935-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:28,205-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:32,712-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：title为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:32,714-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:32,941-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：title为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:37,206-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:37,207-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:37,432-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:41,897-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:41,899-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:42,076-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:46,294-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanTerm为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:46,295-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:46,470-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanTerm为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:50,712-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:50,714-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:51,790-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:38:56,034-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：repaymemtWay为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:38:56,036-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:38:56,362-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：repaymemtWay为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:00,637-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：biddingDays为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:00,639-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:00,827-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：biddingDays为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:05,052-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId是小数-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:05,053-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:05,250-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId是小数-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:09,489-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：输入没有登录的用户名，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:09,490-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:09,730-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：输入没有登录的用户名，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:13,976-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是1000.5，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:13,979-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:14,299-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是1000.5，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:18,801-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是100，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:18,802-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:19,715-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是100，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:23,982-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是0，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:23,985-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:24,212-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是0，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:28,456-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是负数，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:28,457-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:28,676-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是负数，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:32,930-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入0，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:32,932-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:33,231-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入0，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:37,459-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入负数，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:37,461-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:37,672-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入负数，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:42,903-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入25，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:42,904-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:43,073-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入25，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:47,279-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType为1-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:47,281-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:47,445-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType为1-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:51,704-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:51,705-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:51,876-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:39:56,122-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:39:56,123-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:39:56,307-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:00,539-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:40:00,540-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:40:00,717-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:05,176-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanTerm输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:40:05,177-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:40:05,329-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanTerm输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:09,548-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:40:09,550-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:40:09,724-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:13,950-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：repaymemtWay输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:40:13,951-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:40:14,124-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：repaymemtWay输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:18,310-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：biddingDays输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:40:18,311-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:40:18,479-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：biddingDays输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:40:18,481-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-用例执行结束后的后置工作-[test_add_bidloan_testcase.py-50]
+2019-04-28 14:46:48,236-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例前的前置工作-[test_add_bidloan_testcase.py-20]
+2019-04-28 14:46:52,495-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：管理员正常登录-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:46:52,506-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:46:52,782-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：管理员正常登录-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:46:56,975-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：正常添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:46:57,070-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-添加项目前查询到的id:5816-[test_add_bidloan_testcase.py-31]
+2019-04-28 14:46:57,071-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:46:57,358-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：正常添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:01,555-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:01,557-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:01,710-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:05,910-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：title为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:05,911-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:06,098-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：title为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:10,341-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:10,342-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:10,513-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:14,745-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:14,747-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:14,905-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:19,141-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanTerm为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:19,142-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:19,303-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanTerm为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:23,497-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:23,501-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:23,704-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:27,932-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：repaymemtWay为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:27,933-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:28,099-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：repaymemtWay为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:32,482-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：biddingDays为空-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:32,483-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:32,672-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：biddingDays为空-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:36,884-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId是小数-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:36,885-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:37,067-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId是小数-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:41,290-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：输入没有登录的用户名，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:41,291-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:41,461-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：输入没有登录的用户名，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:45,659-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是1000.5，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:45,660-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:45,823-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是1000.5，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:50,046-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是100，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:50,048-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:50,220-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是100，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:54,419-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是0，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:54,421-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:54,587-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是0，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:47:58,783-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount是负数，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:47:58,785-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:47:58,939-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount是负数，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:03,130-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入0，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:03,132-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:03,347-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入0，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:07,572-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入负数，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:07,574-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:07,766-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入负数，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:11,963-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入25，进行添加项目-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:11,965-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:12,162-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入25，进行添加项目-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:16,373-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType为1-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:16,376-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:16,554-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType为1-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:20,788-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：memberId输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:20,789-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:20,941-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：memberId输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:25,169-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：amount输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:25,170-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:25,327-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：amount输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:29,561-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanRate输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:29,566-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:29,726-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanRate输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:33,922-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanTerm输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:33,922-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:34,070-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanTerm输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:38,260-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：loanDateType输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:38,261-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:38,431-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：loanDateType输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:42,641-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：repaymemtWay输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:42,643-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:42,797-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：repaymemtWay输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:47,025-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-执行用例开始：biddingDays输入不合法-[test_add_bidloan_testcase.py-25]
+2019-04-28 14:48:47,027-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:47,178-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-测试结束：biddingDays输入不合法-[test_add_bidloan_testcase.py-44]
+2019-04-28 14:48:47,178-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_add_bidloan_testcase.py-INFO-用例执行结束后的后置工作-[test_add_bidloan_testcase.py-50]
+2019-04-28 14:48:47,178-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例前的前置工作-[test_invest_testcase.py-21]
+2019-04-28 14:48:51,373-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：管理员正常登录-[test_invest_testcase.py-26]
+2019-04-28 14:48:51,376-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:48:51,656-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：管理员正常登录-[test_invest_testcase.py-58]
+2019-04-28 14:48:55,857-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：正常添加项目-[test_invest_testcase.py-26]
+2019-04-28 14:48:55,860-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add-[http_request.py-15]
+2019-04-28 14:48:56,158-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：正常添加项目-[test_invest_testcase.py-58]
+2019-04-28 14:49:00,365-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：审核项目-[test_invest_testcase.py-26]
+2019-04-28 14:49:00,368-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/audit-[http_request.py-15]
+2019-04-28 14:49:00,567-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：审核项目-[test_invest_testcase.py-58]
+2019-04-28 14:49:04,787-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：投资用户正常登录-[test_invest_testcase.py-26]
+2019-04-28 14:49:04,790-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:04,969-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：投资用户正常登录-[test_invest_testcase.py-58]
+2019-04-28 14:49:09,201-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：正常投标-[test_invest_testcase.py-26]
+2019-04-28 14:49:09,306-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-投标之前的用户余额是：70000.00-[test_invest_testcase.py-35]
+2019-04-28 14:49:09,307-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:09,651-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-用户投资的金额是：2000.00-[test_invest_testcase.py-52]
+2019-04-28 14:49:09,748-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-用户投标成功后的余额：68000.00-[test_invest_testcase.py-54]
+2019-04-28 14:49:09,859-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：正常投标-[test_invest_testcase.py-58]
+2019-04-28 14:49:14,112-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：用户ID为空进行投标-[test_invest_testcase.py-26]
+2019-04-28 14:49:14,113-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:14,327-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：用户ID为空进行投标-[test_invest_testcase.py-58]
+2019-04-28 14:49:18,536-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：输入一个与登录用户不一样的memberId-[test_invest_testcase.py-26]
+2019-04-28 14:49:18,538-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:18,743-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：输入一个与登录用户不一样的memberId-[test_invest_testcase.py-58]
+2019-04-28 14:49:22,954-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：输入一个不存在的标的，进行投标-[test_invest_testcase.py-26]
+2019-04-28 14:49:22,957-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:23,149-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：输入一个不存在的标的，进行投标-[test_invest_testcase.py-58]
+2019-04-28 14:49:27,367-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：投资金额大于项目的剩余可投金额-[test_invest_testcase.py-26]
+2019-04-28 14:49:27,370-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:27,573-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-ERROR-测试报错了：'11012' != '11010'
+- 11012
+?     ^
++ 11010
+?     ^
+-[test_invest_testcase.py-42]
+2019-04-28 14:49:31,766-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-执行用例开始：该标已经满标,无法进行投资-[test_invest_testcase.py-26]
+2019-04-28 14:49:31,769-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan-[http_request.py-15]
+2019-04-28 14:49:31,936-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_invest_testcase.py-INFO-测试结束：该标已经满标,无法进行投资-[test_invest_testcase.py-58]
+2019-04-28 14:49:31,937-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例前的前置工作-[test_login_testcase.py-19]
+2019-04-28 14:49:31,937-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：正常登录-[test_login_testcase.py-22]
+2019-04-28 14:49:31,940-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:32,183-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：正常登录-[test_login_testcase.py-34]
+2019-04-28 14:49:32,184-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：用户名为空-[test_login_testcase.py-22]
+2019-04-28 14:49:32,185-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:32,354-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：用户名为空-[test_login_testcase.py-34]
+2019-04-28 14:49:32,354-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：密码为空-[test_login_testcase.py-22]
+2019-04-28 14:49:32,355-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:32,529-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：密码为空-[test_login_testcase.py-34]
+2019-04-28 14:49:32,529-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：密码错误-[test_login_testcase.py-22]
+2019-04-28 14:49:32,531-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:32,734-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：密码错误-[test_login_testcase.py-34]
+2019-04-28 14:49:32,735-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-执行用例开始：用户名错误-[test_login_testcase.py-22]
+2019-04-28 14:49:32,737-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:32,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-测试结束：用户名错误-[test_login_testcase.py-34]
+2019-04-28 14:49:32,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-INFO-用例执行结束后的后置工作-[test_login_testcase.py-38]
+2019-04-28 14:49:32,921-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例前的前置工作-[test_recharge_testcase.py-20]
+2019-04-28 14:49:37,454-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：投资用户正常登录-[test_recharge_testcase.py-25]
+2019-04-28 14:49:37,457-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login-[http_request.py-15]
+2019-04-28 14:49:37,734-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：投资用户正常登录-[test_recharge_testcase.py-47]
+2019-04-28 14:49:41,957-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入整数金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:49:42,057-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-用户充值之前的余额是：68000.00-[test_recharge_testcase.py-31]
+2019-04-28 14:49:42,059-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:49:42,350-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-充值之后用户的余额是：-[test_recharge_testcase.py-38]
+2019-04-28 14:49:43,007-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-70000.00-[test_recharge_testcase.py-41]
+2019-04-28 14:49:43,008-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：输入整数金额，充值成功-[test_recharge_testcase.py-47]
+2019-04-28 14:49:47,212-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：不输入金额，充值成功-[test_recharge_testcase.py-25]
+2019-04-28 14:49:47,213-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:49:47,386-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：不输入金额，充值成功-[test_recharge_testcase.py-47]
+2019-04-28 14:49:51,592-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号为空-[test_recharge_testcase.py-25]
+2019-04-28 14:49:51,593-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:49:51,768-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：手机号为空-[test_recharge_testcase.py-47]
+2019-04-28 14:49:55,963-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：手机号格式不正确-[test_recharge_testcase.py-25]
+2019-04-28 14:49:55,965-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:49:56,152-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：手机号格式不正确-[test_recharge_testcase.py-47]
+2019-04-28 14:50:00,361-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额输入汉字-[test_recharge_testcase.py-25]
+2019-04-28 14:50:00,363-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:50:00,567-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：金额输入汉字-[test_recharge_testcase.py-47]
+2019-04-28 14:50:04,809-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入金额是三位小数-[test_recharge_testcase.py-25]
+2019-04-28 14:50:04,810-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:50:04,982-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-ERROR-测试报错了：'20117' != '20116'
+- 20117
+?     ^
++ 20116
+?     ^
+-[test_recharge_testcase.py-45]
+2019-04-28 14:50:09,207-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额输入负数-[test_recharge_testcase.py-25]
+2019-04-28 14:50:09,208-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:50:09,424-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：金额输入负数-[test_recharge_testcase.py-47]
+2019-04-28 14:50:13,662-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：金额大于50万-[test_recharge_testcase.py-25]
+2019-04-28 14:50:13,664-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:50:13,852-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：金额大于50万-[test_recharge_testcase.py-47]
+2019-04-28 14:50:18,095-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-执行用例开始：输入不存在的用户名-[test_recharge_testcase.py-25]
+2019-04-28 14:50:18,096-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge-[http_request.py-15]
+2019-04-28 14:50:18,368-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-测试结束：输入不存在的用户名-[test_recharge_testcase.py-47]
+2019-04-28 14:50:18,377-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_recharge_testcase.py-INFO-用例执行结束后的后置工作-[test_recharge_testcase.py-53]
+2019-04-28 14:50:18,377-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-执行用例前的前置工作-[test_register_testcase.py-22]
+2019-04-28 14:50:22,709-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-读取数据库里面的最大的手机号是：{'max(mobilephone)': '18999999999'}-[test_register_testcase.py-32]
+2019-04-28 14:50:22,709-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-变成最新的手机号：{"mobilephone":"19000000000","pwd":"#password#","regna":"#name#"}-[test_register_testcase.py-35]
+2019-04-28 14:50:22,712-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:22,879-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-ERROR-测试出错了：'10001' != '20109'
+- 10001
++ 20109
+-[test_register_testcase.py-43]
+2019-04-28 14:50:27,082-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:27,207-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：手机号已被注册-[test_register_testcase.py-50]
+2019-04-28 14:50:31,443-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:31,590-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：手机号码格式不正确-[test_register_testcase.py-50]
+2019-04-28 14:50:35,863-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:36,068-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：密码5位-[test_register_testcase.py-50]
+2019-04-28 14:50:40,340-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:40,474-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：密码19位-[test_register_testcase.py-50]
+2019-04-28 14:50:44,692-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:44,835-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：手机号为空-[test_register_testcase.py-50]
+2019-04-28 14:50:49,060-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-INFO-请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register-[http_request.py-15]
+2019-04-28 14:50:49,193-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束：密码为空-[test_register_testcase.py-50]
+2019-04-28 14:50:49,194-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_register_testcase.py-INFO-测试结束后的后置工作-[test_register_testcase.py-56]
+2019-04-28 17:13:42,872-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-04-28 17:13:42,880-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-04-28 17:13:42,882-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-04-28 17:13:42,884-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:13:43,913-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：正常登录
+2019-04-28 17:13:43,915-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-04-28 17:13:43,915-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-04-28 17:13:43,917-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:13:44,550-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-04-28 17:13:44,551-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-04-28 17:13:44,551-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-04-28 17:13:44,552-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:13:45,200-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-04-28 17:13:45,200-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-04-28 17:13:45,200-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-04-28 17:13:45,201-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:13:45,921-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-04-28 17:13:45,921-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-04-28 17:13:45,922-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-04-28 17:13:45,923-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:13:46,684-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-04-28 17:13:46,684-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-04-28 17:15:35,722-INFO-logger.py-case-日志信息:这是测试用的
+2019-04-28 17:26:31,021-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-04-28 17:26:31,022-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-04-28 17:26:31,025-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-04-28 17:26:31,029-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:31,392-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：正常登录
+2019-04-28 17:26:31,393-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-04-28 17:26:31,393-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-04-28 17:26:31,395-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:31,612-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-04-28 17:26:31,612-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-04-28 17:26:31,612-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-04-28 17:26:31,614-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:31,796-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-04-28 17:26:31,796-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-04-28 17:26:31,797-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-04-28 17:26:31,798-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:31,996-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-04-28 17:26:31,996-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-04-28 17:26:31,997-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-04-28 17:26:31,998-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:32,194-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-04-28 17:26:32,194-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-04-28 17:26:52,534-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-04-28 17:26:52,566-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-04-28 17:26:52,581-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-04-28 17:26:52,588-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:53,100-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：正常登录
+2019-04-28 17:26:53,100-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-04-28 17:26:53,101-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-04-28 17:26:53,102-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:53,576-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-04-28 17:26:53,577-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-04-28 17:26:53,577-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-04-28 17:26:53,579-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:54,102-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-04-28 17:26:54,108-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-04-28 17:26:54,109-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-04-28 17:26:54,114-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:54,437-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-04-28 17:26:54,438-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-04-28 17:26:54,438-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-04-28 17:26:54,440-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:26:54,676-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-04-28 17:26:54,677-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-04-28 17:28:10,482-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-04-28 17:28:10,483-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:10,483-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-04-28 17:28:10,485-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-04-28 17:28:10,486-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:28:11,227-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：正常登录
+2019-04-28 17:28:11,227-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,229-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,230-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-04-28 17:28:11,230-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-04-28 17:28:11,231-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:28:11,596-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-04-28 17:28:11,596-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,596-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,597-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-04-28 17:28:11,597-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-04-28 17:28:11,598-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:28:11,918-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-04-28 17:28:11,919-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,919-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:11,920-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-04-28 17:28:11,920-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-04-28 17:28:11,921-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:28:12,371-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-04-28 17:28:12,371-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:12,372-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:12,372-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-04-28 17:28:12,372-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-04-28 17:28:12,374-INFO-http_request.py-C:\Users\14629\PycharmProjects\python_15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-04-28 17:28:12,848-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-04-28 17:28:12,848-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-04-28 17:28:12,848-INFO-test_login_testcase.py-C:\Users\14629\PycharmProjects\python_15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:33:11,516-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:33:12,469-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：管理员正常登录
+2019-05-07 18:33:12,469-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:12,766-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'10001' != '20111'
+- 10001
++ 20111
+
+2019-05-07 18:33:13,141-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：正常添加项目
+2019-05-07 18:33:13,610-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId为空
+2019-05-07 18:33:13,610-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:13,891-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:14,266-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：title为空
+2019-05-07 18:33:14,266-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:14,563-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:14,766-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount为空
+2019-05-07 18:33:14,766-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:14,985-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:15,688-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate为空
+2019-05-07 18:33:15,688-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:15,938-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:16,250-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm为空
+2019-05-07 18:33:16,266-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:16,594-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:16,813-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为空
+2019-05-07 18:33:16,829-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:17,094-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:17,391-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay为空
+2019-05-07 18:33:17,391-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:17,688-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:17,875-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays为空
+2019-05-07 18:33:17,875-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:18,094-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:18,469-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId是小数
+2019-05-07 18:33:18,469-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:18,719-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:18,985-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：输入没有登录的用户名，进行添加项目
+2019-05-07 18:33:18,985-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:19,282-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:19,500-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是1000.5，进行添加项目
+2019-05-07 18:33:19,516-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:19,782-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:20,204-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是100，进行添加项目
+2019-05-07 18:33:20,204-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:20,594-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:20,828-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是0，进行添加项目
+2019-05-07 18:33:20,844-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:21,094-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:21,344-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是负数，进行添加项目
+2019-05-07 18:33:21,344-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:21,625-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:21,891-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入0，进行添加项目
+2019-05-07 18:33:21,891-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:22,141-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:22,329-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入负数，进行添加项目
+2019-05-07 18:33:22,329-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:22,688-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:22,985-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入25，进行添加项目
+2019-05-07 18:33:23,000-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:23,219-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:23,407-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为1
+2019-05-07 18:33:23,422-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:23,766-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20105' != None
+2019-05-07 18:33:23,969-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId输入不合法
+2019-05-07 18:33:23,985-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:24,266-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:24,532-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount输入不合法
+2019-05-07 18:33:24,547-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:24,844-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:25,125-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入不合法
+2019-05-07 18:33:25,141-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:25,422-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:25,875-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm输入不合法
+2019-05-07 18:33:25,891-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:26,125-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:26,344-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType输入不合法
+2019-05-07 18:33:26,344-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:26,703-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:26,985-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay输入不合法
+2019-05-07 18:33:26,985-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:27,235-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:27,453-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays输入不合法
+2019-05-07 18:33:27,453-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:27,813-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:27,813-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:33:27,813-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:33:28,047-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：管理员正常登录
+2019-05-07 18:33:28,063-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:28,375-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'10001' != '20111'
+- 10001
++ 20111
+
+2019-05-07 18:33:28,625-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：正常添加项目
+2019-05-07 18:33:28,625-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:33:28,969-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'10001' != None
+2019-05-07 18:33:29,157-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：审核项目
+2019-05-07 18:33:29,172-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/audit
+2019-05-07 18:33:29,453-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'10001' != None
+2019-05-07 18:33:29,969-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：投资用户正常登录
+2019-05-07 18:33:29,969-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:30,203-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'10001' != '20111'
+- 10001
++ 20111
+
+2019-05-07 18:33:30,531-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：正常投标
+2019-05-07 18:33:30,907-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：用户ID为空进行投标
+2019-05-07 18:33:30,907-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+2019-05-07 18:33:31,172-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'11003' != None
+2019-05-07 18:33:31,391-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：输入一个与登录用户不一样的memberId
+2019-05-07 18:33:31,391-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+2019-05-07 18:33:31,610-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'11008' != None
+2019-05-07 18:33:31,860-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：输入一个不存在的标的，进行投标
+2019-05-07 18:33:31,860-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+2019-05-07 18:33:32,094-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'11009' != None
+2019-05-07 18:33:32,328-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：投资金额大于项目的剩余可投金额
+2019-05-07 18:33:32,344-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+2019-05-07 18:33:32,735-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'11012' != None
+2019-05-07 18:33:32,985-INFO-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:执行用例开始：该标已经满标,无法进行投资
+2019-05-07 18:33:32,985-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+2019-05-07 18:33:33,250-ERROR-test_invest_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_invest_testcase.py-日志信息:测试报错了：'11010' != None
+2019-05-07 18:33:33,250-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:33:33,250-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,250-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-05-07 18:33:33,250-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-05-07 18:33:33,250-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:33,485-ERROR-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试报错了：'{"status":1,"code":"10001","data":null,"msg":"登录成功"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+?           ^          ^^^                      ^^^^
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+?           ^         ++ ^                      ^^^^^^^^
+
+2019-05-07 18:33:33,485-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,485-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-05-07 18:33:33,485-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-05-07 18:33:33,485-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:33,672-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-05-07 18:33:33,672-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,672-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,672-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-05-07 18:33:33,672-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-05-07 18:33:33,672-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:33,844-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:33:33,844-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,844-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:33,844-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-05-07 18:33:33,844-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-05-07 18:33:33,844-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:34,110-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-05-07 18:33:34,110-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:34,110-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:34,110-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-05-07 18:33:34,110-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-05-07 18:33:34,125-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:34,266-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-05-07 18:33:34,266-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:33:34,266-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:33:34,266-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:33:34,735-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：投资用户正常登录
+2019-05-07 18:33:34,735-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:33:35,281-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'10001' != '20111'
+- 10001
++ 20111
+
+2019-05-07 18:33:35,531-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入整数金额，充值成功
+2019-05-07 18:33:35,860-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：不输入金额，充值成功
+2019-05-07 18:33:35,875-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:36,219-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20115' != None
+2019-05-07 18:33:36,438-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：手机号为空
+2019-05-07 18:33:36,438-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:36,688-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20103' != None
+2019-05-07 18:33:36,906-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：手机号格式不正确
+2019-05-07 18:33:36,906-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:37,266-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20109' != None
+2019-05-07 18:33:37,656-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额输入汉字
+2019-05-07 18:33:37,656-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:38,016-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20118' != None
+2019-05-07 18:33:38,250-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入金额是三位小数
+2019-05-07 18:33:38,250-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:38,469-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20117' != None
+2019-05-07 18:33:38,906-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额输入负数
+2019-05-07 18:33:38,906-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:39,148-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20117' != None
+2019-05-07 18:33:39,648-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额大于50万
+2019-05-07 18:33:39,648-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:39,898-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20117' != None
+2019-05-07 18:33:40,101-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入不存在的用户名
+2019-05-07 18:33:40,101-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:33:40,726-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了：'20104' != None
+2019-05-07 18:33:40,726-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:33:40,726-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:33:41,086-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:读取数据库里面的最大的手机号是：{'max(mobilephone)': '18999999474'}
+2019-05-07 18:33:41,086-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:变成最新的手机号：{"mobilephone":"18999999475","pwd":"#password#","regna":"#name#"}
+2019-05-07 18:33:41,086-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:41,648-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码6位注册成功
+2019-05-07 18:33:41,929-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:42,195-ERROR-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试出错了：'20110' != '10001'
+- 20110
++ 10001
+
+2019-05-07 18:33:42,414-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:42,586-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：手机号码格式不正确
+2019-05-07 18:33:42,867-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:43,039-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码5位
+2019-05-07 18:33:43,258-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:43,429-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码19位
+2019-05-07 18:33:45,219-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:45,376-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：手机号为空
+2019-05-07 18:33:45,594-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:33:45,782-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:33:45,782-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束后的后置工作
+2019-05-07 18:34:41,087-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:34:41,399-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：管理员正常登录
+2019-05-07 18:34:41,399-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:34:41,993-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：正常添加项目
+2019-05-07 18:34:42,352-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId为空
+2019-05-07 18:34:42,352-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:43,368-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：title为空
+2019-05-07 18:34:43,383-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:43,915-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount为空
+2019-05-07 18:34:43,915-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:44,383-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate为空
+2019-05-07 18:34:44,383-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:45,087-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm为空
+2019-05-07 18:34:45,087-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:45,649-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为空
+2019-05-07 18:34:45,649-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:46,102-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay为空
+2019-05-07 18:34:46,102-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:47,946-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays为空
+2019-05-07 18:34:47,961-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:48,586-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId是小数
+2019-05-07 18:34:48,586-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:49,087-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：输入没有登录的用户名，进行添加项目
+2019-05-07 18:34:49,087-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:50,133-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是1000.5，进行添加项目
+2019-05-07 18:34:50,133-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:50,571-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是100，进行添加项目
+2019-05-07 18:34:50,571-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:51,243-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是0，进行添加项目
+2019-05-07 18:34:51,243-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:51,836-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是负数，进行添加项目
+2019-05-07 18:34:51,836-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:52,336-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入0，进行添加项目
+2019-05-07 18:34:52,352-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:52,774-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入负数，进行添加项目
+2019-05-07 18:34:52,790-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:53,305-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入25，进行添加项目
+2019-05-07 18:34:53,305-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:53,711-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为1
+2019-05-07 18:34:53,711-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:54,102-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId输入不合法
+2019-05-07 18:34:54,102-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:54,696-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount输入不合法
+2019-05-07 18:34:54,711-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:55,102-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入不合法
+2019-05-07 18:34:55,102-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:55,618-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm输入不合法
+2019-05-07 18:34:55,618-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:56,071-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType输入不合法
+2019-05-07 18:34:56,071-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:56,477-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay输入不合法
+2019-05-07 18:34:56,477-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:56,964-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays输入不合法
+2019-05-07 18:34:56,968-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:34:57,189-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:35:04,009-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:35:04,377-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：管理员正常登录
+2019-05-07 18:35:04,392-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:04,793-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 10001 != 20111
+2019-05-07 18:35:05,193-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：正常添加项目
+2019-05-07 18:35:05,645-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId为空
+2019-05-07 18:35:05,645-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:05,893-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:06,246-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：title为空
+2019-05-07 18:35:06,261-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:06,646-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:06,924-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount为空
+2019-05-07 18:35:06,924-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:07,193-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:07,409-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate为空
+2019-05-07 18:35:07,409-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:07,805-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:08,164-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm为空
+2019-05-07 18:35:08,180-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:08,539-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:08,779-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为空
+2019-05-07 18:35:08,779-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:09,076-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:09,357-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay为空
+2019-05-07 18:35:09,357-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:09,670-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:09,889-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays为空
+2019-05-07 18:35:09,889-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:10,154-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:35:10,404-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId是小数
+2019-05-07 18:35:10,404-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:10,654-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:10,920-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：输入没有登录的用户名，进行添加项目
+2019-05-07 18:35:10,920-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:11,170-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:11,529-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是1000.5，进行添加项目
+2019-05-07 18:35:11,545-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:11,873-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:12,201-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是100，进行添加项目
+2019-05-07 18:35:12,217-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:12,639-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:12,873-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是0，进行添加项目
+2019-05-07 18:35:12,873-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:13,232-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:13,498-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount是负数，进行添加项目
+2019-05-07 18:35:13,498-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:13,810-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:14,201-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入0，进行添加项目
+2019-05-07 18:35:14,201-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:14,592-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:14,982-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入负数，进行添加项目
+2019-05-07 18:35:14,982-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:15,373-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:15,592-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入25，进行添加项目
+2019-05-07 18:35:15,592-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:15,920-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:16,185-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType为1
+2019-05-07 18:35:16,201-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:16,451-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20105 != None
+2019-05-07 18:35:16,717-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：memberId输入不合法
+2019-05-07 18:35:16,717-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:17,092-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:17,373-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：amount输入不合法
+2019-05-07 18:35:17,373-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:17,654-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:17,998-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanRate输入不合法
+2019-05-07 18:35:17,998-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:18,326-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:18,592-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanTerm输入不合法
+2019-05-07 18:35:18,592-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:18,904-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:19,264-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：loanDateType输入不合法
+2019-05-07 18:35:19,264-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:19,545-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:19,779-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：repaymemtWay输入不合法
+2019-05-07 18:35:19,779-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:20,107-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:20,342-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:执行用例开始：biddingDays输入不合法
+2019-05-07 18:35:20,342-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/loan/add
+2019-05-07 18:35:20,576-ERROR-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:35:20,576-INFO-test_add_bidloan_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_add_bidloan_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:35:29,138-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:35:29,138-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,138-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-05-07 18:35:29,138-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-05-07 18:35:29,138-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:29,482-ERROR-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试报错了： :: {"status":1,"code":"10001","data":null,"msg":"登录成功"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-05-07 18:35:29,482-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,482-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-05-07 18:35:29,482-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-05-07 18:35:29,482-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:29,638-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-05-07 18:35:29,638-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,638-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,638-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-05-07 18:35:29,638-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-05-07 18:35:29,638-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:29,841-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:35:29,841-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,841-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:29,841-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-05-07 18:35:29,841-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-05-07 18:35:29,841-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:30,060-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-05-07 18:35:30,060-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:30,060-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:30,060-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-05-07 18:35:30,060-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-05-07 18:35:30,060-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:35:30,263-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-05-07 18:35:30,263-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:35:30,263-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:51:54,696-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:51:54,727-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:54,727-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-05-07 18:51:54,727-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"123456"}
+2019-05-07 18:51:54,727-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:51:55,289-ERROR-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试报错了： :: {"status":1,"code":"10001","data":null,"msg":"登录成功"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-05-07 18:51:55,321-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:55,321-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-05-07 18:51:55,321-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-05-07 18:51:55,336-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:51:55,571-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-05-07 18:51:55,571-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:55,586-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:55,586-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-05-07 18:51:55,586-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-05-07 18:51:55,586-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:51:55,821-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:51:55,821-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:55,821-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:55,821-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-05-07 18:51:55,821-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-05-07 18:51:55,821-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:51:56,086-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-05-07 18:51:56,086-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:56,086-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:56,086-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-05-07 18:51:56,086-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-05-07 18:51:56,086-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:51:56,305-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-05-07 18:51:56,305-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:51:56,305-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:52:18,764-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:52:19,139-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:读取数据库里面的最大的手机号是：{'max(mobilephone)': '18999999475'}
+2019-05-07 18:52:19,139-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:变成最新的手机号：{"mobilephone":"18999999476","pwd":"#password#","regna":"#name#"}
+2019-05-07 18:52:19,139-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:19,420-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码6位注册成功
+2019-05-07 18:52:19,670-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:19,795-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：手机号已被注册
+2019-05-07 18:52:19,998-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:20,217-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：手机号码格式不正确
+2019-05-07 18:52:20,530-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:20,717-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码5位
+2019-05-07 18:52:21,108-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:21,405-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码19位
+2019-05-07 18:52:21,842-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:22,030-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：手机号为空
+2019-05-07 18:52:22,327-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/register
+2019-05-07 18:52:22,545-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:52:22,545-INFO-test_register_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_register_testcase.py-日志信息:测试结束后的后置工作
+2019-05-07 18:53:34,858-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:53:34,858-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:34,858-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：正常登录
+2019-05-07 18:53:34,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085208","pwd":"123456"}
+2019-05-07 18:53:34,874-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:53:35,218-ERROR-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试报错了： :: {"status":1,"code":"10001","data":null,"msg":"登录成功"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-05-07 18:53:35,233-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,233-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名为空
+2019-05-07 18:53:35,233-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":None,"pwd":"123457"}
+2019-05-07 18:53:35,233-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:53:35,483-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名为空
+2019-05-07 18:53:35,483-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,483-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,483-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码为空
+2019-05-07 18:53:35,483-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":None}
+2019-05-07 18:53:35,483-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:53:35,686-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码为空
+2019-05-07 18:53:35,686-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,686-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,686-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：密码错误
+2019-05-07 18:53:35,686-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085209","pwd":"1234567"}
+2019-05-07 18:53:35,686-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:53:35,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：密码错误
+2019-05-07 18:53:35,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:35,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:执行用例开始：用户名错误
+2019-05-07 18:53:35,874-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:请求的数据是：{"mobilephone":"18811085245","pwd":"123456"}
+2019-05-07 18:53:35,874-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:53:36,046-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:测试结束：用户名错误
+2019-05-07 18:53:36,046-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:----------------------------------------------------------------
+2019-05-07 18:53:36,046-INFO-test_login_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_login_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-07 18:58:56,986-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例前的前置工作
+2019-05-07 18:58:58,663-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：投资用户正常登录
+2019-05-07 18:58:58,667-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-05-07 18:58:58,918-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 10001 != 20111
+2019-05-07 18:58:59,443-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入整数金额，充值成功
+2019-05-07 18:58:59,715-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：不输入金额，充值成功
+2019-05-07 18:58:59,717-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:00,015-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20115 != None
+2019-05-07 18:59:00,273-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：手机号为空
+2019-05-07 18:59:00,274-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:00,496-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20103 != None
+2019-05-07 18:59:00,672-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：手机号格式不正确
+2019-05-07 18:59:00,673-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:00,933-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20109 != None
+2019-05-07 18:59:01,136-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额输入汉字
+2019-05-07 18:59:01,137-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:01,424-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20118 != None
+2019-05-07 18:59:01,635-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入金额是三位小数
+2019-05-07 18:59:01,636-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:01,874-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20117 != None
+2019-05-07 18:59:02,072-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额输入负数
+2019-05-07 18:59:02,074-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:02,331-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20117 != None
+2019-05-07 18:59:02,514-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：金额大于50万
+2019-05-07 18:59:02,515-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:04,976-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20117 != None
+2019-05-07 18:59:05,205-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:执行用例开始：输入不存在的用户名
+2019-05-07 18:59:05,206-INFO-http_request.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\conmon\http_request.py-日志信息:请求的URL：http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-05-07 18:59:05,437-ERROR-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:测试报错了： :: 20104 != None
+2019-05-07 18:59:05,440-INFO-test_recharge_testcase.py-C:\Users\qiaoqiao\PycharmProjects\python15\API_7\testcase\test_recharge_testcase.py-日志信息:用例执行结束后的后置工作
+2019-05-08 11:44:58,168-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:44:58,971-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:44:59,231-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:44:59,578-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:44:59,985-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:45:55,570-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:45:56,390-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:45:56,579-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:45:56,738-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:45:56,943-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:50:44,011-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:50:48,408-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:50:49,194-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:50:50,483-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:50:51,328-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:54:01,589-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:54:20,378-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:54:20,936-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:54:22,771-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:54:23,803-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:55:10,455-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:55:17,589-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:55:20,648-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:55:24,578-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:55:36,331-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:57:27,489-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:57:30,329-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:57:30,872-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:57:31,414-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:57:31,538-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:58:04,423-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 11:58:06,708-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 11:58:07,436-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 11:58:07,880-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 11:58:08,087-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 11:58:50,573-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 12:00:27,473-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 12:00:34,634-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 12:00:37,397-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 12:01:01,955-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 12:01:05,193-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 12:01:32,130-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 12:01:32,792-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 12:01:32,904-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 12:01:33,212-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 12:01:33,545-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
+2019-05-08 12:27:48,406-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：发送验证码成功
+2019-05-08 12:27:49,215-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：client_ip为空
+2019-05-08 12:27:49,376-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id为空
+2019-05-08 12:27:49,496-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：tmpl_id输入2
+2019-05-08 12:27:49,596-INFO-test_sendcode.py-test_sendcode-日志信息:开始执行测试用例：手机号码格式错误
